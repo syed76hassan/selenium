@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[192.168.43.246 chrome]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50" started-at="2020-05-21T05:28:11Z" finished-at="2020-05-21T05:28:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50" started-at="2020-05-21T05:28:11Z" finished-at="2020-05-21T05:28:11Z">
+      <class name="Testng.multiple">
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:Testng.multiple@457e2f02]" name="run" duration-ms="15" started-at="2020-05-21T05:28:11Z" finished-at="2020-05-21T05:28:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[192.168.43.246]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[192.168.43.246 chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- Testng.multiple -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
